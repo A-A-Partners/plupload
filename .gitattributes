@@ -2,7 +2,7 @@
 * -text
 
 tests/ export-ignore
-src/ export-ignore
+src22/ export-ignore
 tools/ export-ignore
 build.bat export-ignore
 build.xml export-ignore
