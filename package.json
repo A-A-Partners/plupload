@@ -1,10 +1,10 @@
 {
   "name": "plupload",
-  "version": "1.5.9",
+  "version": "1.5.10",
   "engines": {
     "node": ">= 0.6.0"
   },
-  "files": ["src", "js"],
+  "files": ["*"],
   "dependencies": {
   }
 }
