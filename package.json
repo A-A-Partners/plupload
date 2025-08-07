@@ -1,6 +1,6 @@
 {
   "name": "plupload",
-  "version": "1.5.10",
+  "version": "1.5.8",
   "engines": {
     "node": ">= 0.6.0"
   },
