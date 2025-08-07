@@ -161,7 +161,7 @@
 
 						handleStatus(file);
 
-						$('#' + file.id + '.plupload_delete a').click(function(e) {
+						$('#' + file.id + '.plupload_delete a').on('click', function(e) {
 							$('#' + file.id).remove();
 							uploader.removeFile(file);
 
@@ -244,7 +244,7 @@
 
 					$('#' + id + '_container').attr('title', 'Using runtime: ' + res.runtime);
 
-					$('a.plupload_start', target).click(function(e) {
+					$('a.plupload_start', target).on('click', function(e) {
 						if (!$(this).hasClass('plupload_disabled')) {
 							uploader.start();
 						}
@@ -252,7 +252,7 @@
 						e.preventDefault();
 					});
 
-					$('a.plupload_stop', target).click(function(e) {
+					$('a.plupload_stop', target).on('click', function(e) {
 						e.preventDefault();
 						uploader.stop();
 					});
